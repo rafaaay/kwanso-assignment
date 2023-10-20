@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionTitle from '../../atoms/sectionTitle';
 import DestinationCard from '../../atoms/destinationCard';
+import DestinationsRecord from "../../../destinations.json";
 
 function Destinations() {
   return (
@@ -12,14 +13,13 @@ function Destinations() {
             />
 
             <div className='slider'>
-              <DestinationCard />
-              <DestinationCard />
-              <DestinationCard />
-              <DestinationCard />
-              <DestinationCard />
-              <DestinationCard />
-              <DestinationCard />
-              <DestinationCard />
+              {
+                DestinationsRecord.map( record => {
+                  return(
+                    <DestinationCard destination = {record.destination} />
+                  )
+                })
+              }
             </div>
         </div>
     </section>
