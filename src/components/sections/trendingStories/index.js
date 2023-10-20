@@ -18,7 +18,7 @@ function TrendingStories() {
                             author={record.author}
                             date={record.date}
                             topic={record.topic}
-                            layout="vertical"
+                            layout="horizontal"
                         />
                     )
                 })
