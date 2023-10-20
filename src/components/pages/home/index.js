@@ -1,11 +1,16 @@
 import React from 'react';
 import Header from '../../sections/header';
+import TopStories from '../../sections/topStories';
 
 function Home() {
   return (
-    <main>
+    <div>
       <Header />
-    </main>
+
+      <main>
+        <TopStories />
+      </main>
+    </div>
   );
 }
 
