@@ -1,10 +1,14 @@
 import React from 'react';
+import SectionTitle from '../../atoms/sectionTitle';
 
 function Destinations() {
   return (
-    <section className='topStories'>
+    <section className='destinations'>
         <div className='container'>
-            <SectionTitle title="Hello" />
+            <SectionTitle 
+              title="Top Destinations"
+              description="Tick one more destination off of your bucket list with one of our most popular vacations in 2022" 
+            />
         </div>
     </section>
   );

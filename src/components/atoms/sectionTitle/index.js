@@ -2,9 +2,14 @@ import React from 'react';
 
 function SectionTitle(props) {
     const title = props.title;
+    const description = props.description;
 
     return (
-        <h2 className='sectionTitle'>{title}</h2>
+        <div className='sectionTitle'>
+            <h2>{title}</h2>
+            <p>{description}</p>
+        </div>
+
     );
 }
 

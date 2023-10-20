@@ -16,4 +16,9 @@
     padding-bottom: 1.6rem;
     border-bottom: 1px solid rgba($color-grey, $alpha: 0.7);
     margin-bottom: 2rem;
+
+    p {
+        color: rgba($color-primary, $alpha: 0.7);
+        margin-top: 1.5rem;
+    }
 }
