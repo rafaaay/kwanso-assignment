@@ -7,7 +7,7 @@ function StoryCard(props) {
     const topic = props.topic
 
     return (
-        <article className='story'>
+        <article className='story vertical'>
             <div className='story__img'>
                 <img src='https://picsum.photos/id/26/200' alt='story image' />
             </div>
