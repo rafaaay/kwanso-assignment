@@ -17,3 +17,17 @@
         grid-gap: 3rem;
     }
 }
+
+.destinations {
+    .slider {
+        display: flex;
+        gap: 2rem;
+        overflow: auto;
+        -ms-overflow-style: none; 
+            scrollbar-width: none; 
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}

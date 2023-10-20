@@ -14,6 +14,7 @@ function TrendingStories() {
                   author="Author Name"
                   date="20 August, 2022"
                   topic="Technology"
+                  layout="horizontal"
               />
 
               <StoryCard 
@@ -21,6 +22,7 @@ function TrendingStories() {
                   author="Author Name"
                   date="20 August, 2022"
                   topic="Technology"
+                  layout="horizontal"
               />
 
               <StoryCard 
@@ -28,6 +30,7 @@ function TrendingStories() {
                   author="Author Name"
                   date="20 August, 2022"
                   topic="Technology"
+                  layout="horizontal"
               />
             </div>
         </div>

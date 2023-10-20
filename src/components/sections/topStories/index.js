@@ -9,12 +9,13 @@ function TopStories() {
             <SectionTitle title="Top Stories" />
 
             {/* Featured Story */}
-            {/* <StoryCard 
+            <StoryCard 
                 title="Here Goes a really long title"
                 author="Author Name"
                 date="20 August, 2022"
                 topic="Technology"
-            /> */}
+                layout="featured"
+            />
             {/* Featured Story */}
 
             {/* Top Stories */}
@@ -24,6 +25,7 @@ function TopStories() {
                   author="Author Name"
                   date="20 August, 2022"
                   topic="Technology"
+                  layout="vertical"
               />
 
               <StoryCard 
@@ -31,6 +33,7 @@ function TopStories() {
                   author="Author Name"
                   date="20 August, 2022"
                   topic="Technology"
+                  layout="vertical"
               />
 
               <StoryCard 
@@ -38,6 +41,7 @@ function TopStories() {
                   author="Author Name"
                   date="20 August, 2022"
                   topic="Technology"
+                  layout="vertical"
               />
 
               <StoryCard 
@@ -45,6 +49,7 @@ function TopStories() {
                   author="Author Name"
                   date="20 August, 2022"
                   topic="Technology"
+                  layout="vertical"
               />
             </div>
             

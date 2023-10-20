@@ -5,6 +5,7 @@ body {
   font-size: $font-size-normal;
   color: $color-primary;
   min-height: 100vh;
+  padding-bottom: 20rem; // Just to give space at the bottom for visibility, to be removed later
 }
 
 h2 {

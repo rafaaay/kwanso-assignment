@@ -4,10 +4,11 @@ function StoryCard(props) {
     const title = props.title;
     const author = props.author;
     const date = props.date;
-    const topic = props.topic
+    const topic = props.topic;
+    const layout = props.layout
 
     return (
-        <article className='story horizontal'>
+        <article className={`story ${props.layout}`}>
             <div className='story__img'>
                 <img src='./sample_img.jpg' alt='story image' />
             </div>

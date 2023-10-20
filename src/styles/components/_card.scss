@@ -44,7 +44,47 @@
 
     // featured layout
     &.featured {
+        display: flex;
+        width: 100%;
+        position: relative;
+        height: 400px;
+        margin-bottom: 4rem;
 
+        .story__img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 1.5rem;
+            }
+        }
+
+        .story__title {
+            font-size: 3.2rem;
+        }
+        
+        .story__info {   
+            position: absolute;
+            left: 5rem;
+            bottom: 5rem;
+            color: $color-light;
+            gap: 2rem;
+        }
+
+        .story__topic {
+            color: $color-light;
+            background-color: rgba($color-blue, $alpha: 1);
+            border-radius: 0.4rem;
+            font-size: 1.4rem;
+        }
+
+        .author {
+            color: $color-light;
+        }
     }
 
     // Vertical layout
