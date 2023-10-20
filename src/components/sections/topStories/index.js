@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionTitle from '../../atoms/sectionTitle';
 import StoryCard from '../../atoms/storyCard';
+import Button from '../../atoms/button';
 
 import TopStoriesRecord from "../../../top-stories.json";
 
@@ -36,8 +37,11 @@ function TopStories() {
                 })
             }
             </div>
-            
             {/* Top Stories */}
+
+            <div className='section-btn'>
+                <Button text="View More Articles" />
+            </div>
         </div>
     </section>
   );

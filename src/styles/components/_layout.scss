@@ -8,6 +8,13 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 3rem;
     }
+
+    .section-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+    }
 }
 
 .trendingStories {
