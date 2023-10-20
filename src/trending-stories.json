@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Trending Story Here goes a really long title that spans multiple lines number 1",
+        "author": "Author Name One",
+        "date": "20 August, 2022",
+        "topic": "Technology"
+    },
+
+    {
+        "title": "Trending Story Here goes a really long title that spans multiple lines number 2",
+        "author": "Author Name Two",
+        "date": "20 August, 2022",
+        "topic": "Politics"
+    },
+
+    {
+        "title": "Trending Story Here goes a really long title that spans multiple lines number 3",
+        "author": "Author Name Three",
+        "date": "20 October, 2022",
+        "topic": "Sports"
+    },
+
+    {
+        "title": "Trending Story Here goes a really long title that spans multiple lines number 4",
+        "author": "Author Name Four",
+        "date": "20 August, 2022",
+        "topic": "Entertainment"
+    }
+    
+]
