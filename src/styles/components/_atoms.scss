@@ -1,0 +1,13 @@
+.searchField {
+    input {
+        padding: 0.8rem 2rem;
+        border-radius: 2.5rem;
+        background-color: rgba($color-grey, $alpha: 0.7);
+        border: 1px solid $color-grey;
+
+        &::before {
+            content: url('https://icons8.com/icon/59878/search');
+            display: block;
+        }
+    }
+}

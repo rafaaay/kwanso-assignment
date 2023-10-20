@@ -1,4 +1,6 @@
 import React from 'react';
+import SearchField from '../../atoms/searchField';
+import CTA from '../../atoms/CTA';
 
 function Header() {
   return (
@@ -25,7 +27,11 @@ function Header() {
 
       {/* right */}
       <div className='header__right'>
-
+        <SearchField />
+        <CTA />
+        <div className='user-menu'>
+            <img src='https://picsum.photos/id/1/200' alt='user image' aria-label="click to open the user dropdown" />
+        </div> 
       </div>
       {/* right */}
     </header>
